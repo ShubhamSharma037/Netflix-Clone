@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACL,MAAM,EAAE,IAAI;EACZ,KAAK,EAAG,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,GAAG,EAAG,IAAI",
+"sources": ["../../../assets/scss/Navbar/NavigationItems/NavigationItems.scss"],
+"names": [],
+"file": "NavigationItems.module.css"
+}

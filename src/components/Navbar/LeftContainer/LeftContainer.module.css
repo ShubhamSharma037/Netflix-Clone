@@ -1,0 +1,15 @@
+.rightNavitemsContainer, .leftNavitemsContainer {
+  height: 100%;
+  width: 40%;
+  text-align: center; }
+
+.rightNavitemsContainer {
+  width: 30%;
+  float: right;
+  display: flex;
+  justify-content: flex-end; }
+
+.leftNavitemsContainer {
+  float: left; }
+
+/*# sourceMappingURL=LeftContainer.module.css.map */

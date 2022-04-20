@@ -1,0 +1,76 @@
+.profileContainer{
+    height : 100%;
+    width : 3rem;
+    position: relative;
+    
+
+
+    &:hover{
+        .profileLists{
+            visibility: visible;
+        }
+    }
+}
+
+.profileIcon{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+.profileLists{
+    position: absolute;
+    min-height: 20rem;
+    height: auto;
+    max-height : 40rem;
+    width : 20rem;
+    top : 100%;
+    right: -10%;
+    padding: 1rem;
+    border : 1px solid #aaa;
+    visibility: hidden;
+    background: #141414;
+    display: flex;
+    flex-flow: column wrap;
+    font-weight: 100;
+
+}
+
+.profile{
+    width : 100%;
+    height : 5rem;
+    // border : 1px solid red;
+    display: flex;
+    align-items: center;
+    gap : 1rem;
+
+    img{
+        float: left;
+        height: 60%;
+        width: 20%;
+    }
+
+    h3{
+        // width : 80%;
+        font-size: 1.2rem;
+        color : #fff;
+        line-height: 1.6rem;
+        cursor: pointer;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.accountSettings{
+    width: 100%;
+    height: auto;
+    border-top : 1px solid #ccc;
+}

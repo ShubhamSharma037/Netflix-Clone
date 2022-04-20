@@ -1,0 +1,30 @@
+.searchBtnWrapper {
+  height: 3.5rem;
+  width: 25rem;
+  border: 1px solid #000;
+  display: flex;
+  gap: 0.5rem;
+  animation: spread .3s linear; }
+  .searchBtnWrapper img {
+    width: 10%;
+    height: 100%; }
+  .searchBtnWrapper input {
+    width: 90%;
+    font-size: 1.4rem;
+    outline: none;
+    border: none; }
+
+.searchTab {
+  width: 3rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer; }
+
+@keyframes spread {
+  from {
+    width: 0; }
+  to {
+    width: 25rem; } }
+
+/*# sourceMappingURL=SearchButton.module.css.map */

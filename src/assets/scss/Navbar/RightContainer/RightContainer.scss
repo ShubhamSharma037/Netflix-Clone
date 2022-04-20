@@ -1,0 +1,23 @@
+@import '../LeftContainer//LeftContainer.scss';
+
+
+.UIitems{
+    height: 100%;
+    max-width : 100%;
+    width: auto;
+    margin : 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    // border : 1px solid red;
+
+    li{
+        height: auto;
+        min-width : 3rem;
+        max-width: auto;
+        line-height: 1.68rem;
+        background-color : #fff;
+        // border : 1px solid blue;
+    }
+}

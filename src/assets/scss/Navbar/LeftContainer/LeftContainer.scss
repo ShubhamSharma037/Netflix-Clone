@@ -1,0 +1,19 @@
+
+.rightNavitemsContainer, .leftNavitemsContainer{
+    height : 100%;
+    width : 40%;
+    text-align: center;
+    // border : 1px solid #000;
+}
+
+.rightNavitemsContainer{
+    width: 30%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.leftNavitemsContainer{
+    float: left;
+}

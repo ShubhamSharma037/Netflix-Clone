@@ -1,0 +1,42 @@
+.navItem{
+    height : 100%;
+    width : auto;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    list-style: none;
+
+    img{
+        height: 40%;
+        width: 100%;
+        transform: scale(1.3);
+    }
+}
+
+.navLinks{
+    img{
+        height: 2rem;
+        width : 10rem;
+        float : left;
+        margin-right: 2.7rem;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 1.4rem;
+        line-height: 1.68rem;;
+
+        // border : 1px solid black;
+    }
+}
+
+.non_active{
+    color : rgba(#fff,0.8);
+}
+
+
+.active{
+    color : #fff;
+    text-shadow: 0px 0px 1px #fff;
+}

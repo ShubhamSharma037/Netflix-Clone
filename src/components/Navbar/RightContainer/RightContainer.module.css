@@ -1,0 +1,31 @@
+.rightNavitemsContainer, .leftNavitemsContainer {
+  height: 100%;
+  width: 40%;
+  text-align: center; }
+
+.rightNavitemsContainer {
+  width: 30%;
+  float: right;
+  display: flex;
+  justify-content: flex-end; }
+
+.leftNavitemsContainer {
+  float: left; }
+
+.UIitems {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none; }
+  .UIitems li {
+    height: auto;
+    min-width: 3rem;
+    max-width: auto;
+    line-height: 1.68rem;
+    background-color: #fff; }
+
+/*# sourceMappingURL=RightContainer.module.css.map */
